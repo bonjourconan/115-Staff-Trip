@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>115年員工旅遊・烏石港</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Huninn&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#FFFCF6;--ink:#3E3A39;--coral:#F2A497;--sun:#F6D27A;--sea:#A8D3E6;--green:#B9DAA5;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+html{scroll-padding-top:env(safe-area-inset-top,0px);height:100%}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Huninn","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.75;font-size:16px}
+main{max-width:760px;margin:0 auto;padding:20px 16px 56px}
+h1,h2,h3,p{margin:0}
+.box{background:var(--paper);border:3px solid var(--ink);border-radius:28px;padding:20px}
+header{text-align:center;margin-bottom:18px}
+h1{font-size:clamp(28px,7vw,40px);line-height:1.3}
+.date{display:inline-block;margin-top:10px;background:var(--sun);border:3px solid var(--ink);border-radius:999px;padding:2px 18px}
+.hero{padding:0;overflow:hidden;margin-bottom:20px}
+.hero svg{display:block;width:100%;height:auto}
+nav{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:22px}
+nav a{color:var(--ink);text-decoration:none;border:3px solid var(--ink);border-radius:999px;padding:2px 16px;background:var(--paper)}
+nav a:nth-child(1){background:var(--coral)}nav a:nth-child(2){background:var(--sea)}nav a:nth-child(3){background:var(--green)}nav a:nth-child(4){background:var(--sun)}
+nav a:focus-visible,a:focus-visible{outline:3px dashed var(--ink);outline-offset:3px}
+section{margin-bottom:26px}
+h2{font-size:24px;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+h2 i{width:18px;height:18px;border:3px solid var(--ink);border-radius:50%;display:inline-block}
+.day{margin-bottom:16px}
+.day>h3{display:inline-block;border:3px solid var(--ink);border-radius:999px;padding:0 18px;margin:0 0 10px 6px;font-size:18px}
+.tl{list-style:none;margin:0;padding:0}
+.tl li{position:relative;display:grid;grid-template-columns:96px 1fr;gap:4px 36px;padding:10px 0}
+.tl li::before{content:"";position:absolute;left:112px;top:0;bottom:0;border-left:3px dotted var(--ink)}
+.tl li:first-child::before{top:26px}
+.tl li:last-child::before{bottom:auto;height:26px}
+.tl li::after{content:"";position:absolute;left:103px;top:17px;width:20px;height:20px;border:3px solid var(--ink);border-radius:50%;background:var(--sun)}
+.c1 li::after{background:var(--coral)}.c2 li::after{background:var(--sea)}
+.t{font-size:14px;line-height:1.5;padding-top:3px}
+.t b{display:inline-block;border:3px solid var(--ink);border-radius:14px;padding:0 8px;font-weight:400;background:var(--sun)}
+.tl h4{margin:0;font-size:17px;font-weight:400}
+.tl p{font-size:14px;opacity:.85}
+.tag{display:inline-block;font-size:12px;line-height:1.5;border:2px solid var(--ink);border-radius:999px;padding:0 8px;margin:4px 4px 0 0;background:var(--green)}
+.c1{background:#FFF1EC}.c2{background:#EEF7FB}.c3{background:#F4FAEE}.c4{background:#FFF8E1}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:14px}
+.mini{border:3px solid var(--ink);border-radius:22px;padding:12px 14px;background:var(--paper)}
+.mini h3{font-size:17px;margin-bottom:4px}
+.mini p,.mini li{font-size:14px}
+.mini ul{margin:0;padding-left:20px}
+.times{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 4px}
+.times span{border:3px solid var(--ink);border-radius:14px;padding:0 10px;background:var(--sea);font-size:15px}
+.times span.w{background:var(--paper);font-size:13px}
+.warn{background:var(--coral);border:3px solid var(--ink);border-radius:22px;padding:10px 16px;margin-top:14px}
+table{width:100%;border-collapse:separate;border-spacing:0 8px}
+td{padding:8px 12px;border-top:3px solid var(--ink);border-bottom:3px solid var(--ink);background:var(--paper);font-size:15px}
+td:first-child{border-left:3px solid var(--ink);border-radius:18px 0 0 18px}
+td:last-child{border-right:3px solid var(--ink);border-radius:0 18px 18px 0;text-align:right;white-space:nowrap;background:var(--sun)}
+tr.sum td:last-child{background:var(--coral)}
+.note{font-size:14px;margin-top:8px}
+a{color:var(--ink)}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.links a{border:3px solid var(--ink);border-radius:999px;padding:0 16px;text-decoration:none;background:var(--sea);font-size:14px}
+footer{text-align:center;font-size:14px;margin-top:10px}
+[hidden]{display:none!important}
+nav a:nth-child(5){background:var(--coral)}nav a:nth-child(6){background:var(--sea)}
+.search{margin-bottom:14px}
+input[type=search],#ci,textarea{width:100%;font:inherit;color:var(--ink);background:var(--paper);border:3px solid var(--ink);border-radius:999px;padding:8px 20px}
+textarea{border-radius:22px;resize:vertical}
+input:focus-visible,textarea:focus-visible,.btn:focus-visible,.x:focus-visible{outline:3px dashed var(--ink);outline-offset:3px}
+.row{display:flex;gap:10px;margin-top:10px}
+.btn{font:inherit;color:var(--ink);background:var(--coral);border:3px solid var(--ink);border-radius:999px;padding:2px 20px;cursor:pointer;white-space:nowrap}
+.btn.s{background:var(--paper);font-size:14px}
+.ck,.nt{list-style:none;margin:0;padding:0}
+.ck li{display:flex;align-items:center;gap:8px;padding:6px 0;border-top:3px dotted var(--ink)}
+.ck li:first-child{border-top:0}
+.ck label{display:flex;gap:12px;align-items:center;flex:1;cursor:pointer;font-size:15px;line-height:1.5}
+.ck input{appearance:none;-webkit-appearance:none;flex:none;width:24px;height:24px;border:3px solid var(--ink);border-radius:8px;background:var(--paper);margin:0;cursor:pointer;position:relative}
+.ck input:checked{background:var(--green)}
+.ck input:checked::after{content:'';position:absolute;left:6px;top:1px;width:6px;height:12px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(45deg)}
+.ck input:checked+span{text-decoration:line-through;opacity:.6}
+.x{font:inherit;border:0;background:none;color:var(--ink);cursor:pointer;padding:0 6px}
+.nt li{margin-top:12px;border:3px solid var(--ink);border-radius:22px;padding:10px 14px;background:var(--paper)}
+.nt time{font-size:12px;background:var(--sun);border:2px solid var(--ink);border-radius:999px;padding:0 8px}
+.nt p{white-space:pre-wrap;margin-top:6px;font-size:15px;word-break:break-word}
+.nt .x{float:right;font-size:13px}
+/* animation */
+.bus{animation:drive 11s linear infinite}
+.wave1{animation:sway 5s ease-in-out infinite}
+.wave2{animation:sway 7s ease-in-out infinite reverse}
+.whale{animation:leap 6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+.spout{animation:spout 6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+.boat{animation:bob 3.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+.cloud{animation:drift 26s linear infinite}
+.cloud.b{animation-duration:38s;animation-delay:-14s}
+.sun{animation:spin 30s linear infinite;transform-box:fill-box;transform-origin:50% 50%}
+@keyframes drive{0%{transform:translateX(-170px)}100%{transform:translateX(900px)}}
+@keyframes sway{0%,100%{transform:translateX(-14px)}50%{transform:translateX(14px)}}
+@keyframes leap{0%,18%{transform:translateY(46px) rotate(-8deg)}38%{transform:translateY(-12px) rotate(10deg)}58%,100%{transform:translateY(46px) rotate(-8deg)}}
+@keyframes spout{0%,40%{transform:scale(0)}50%{transform:scale(1)}70%,100%{transform:scale(0)}}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-6px) rotate(2deg)}}
+@keyframes drift{0%{transform:translateX(-180px)}100%{transform:translateX(900px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.bus,.wave1,.wave2,.whale,.spout,.boat,.cloud,.sun{animation:none}.whale{transform:translateY(10px)}.spout{transform:scale(1)}.bus{transform:translateX(300px)}}
+@media (max-width:480px){.tl li{grid-template-columns:1fr;padding-left:36px}.tl li::before{left:10px}.tl li::after{left:1px}.box{padding:16px}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>烏石港・員工旅遊</h1>
+<span class="date">115年10月31日（六）～11月1日（日）</span>
+</header>
+
+<div class="box hero" role="img" aria-label="公車駛向海邊，鯨魚躍出海面，遠方有龜山島">
+<svg viewBox="0 0 800 340" xmlns="http://www.w3.org/2000/svg" stroke="#3E3A39" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect width="800" height="340" fill="#FFFCF6" stroke="none"/>
+<g class="sun"><circle cx="680" cy="64" r="30" fill="#F6D27A"/>
+<path d="M680 16v10M680 102v10M632 64h10M718 64h10M646 30l7 7M707 91l7 7M714 30l-7 7M653 91l-7 7" fill="none"/></g>
+<g class="cloud"><path d="M40 70q0-22 24-22 8-16 30-10 14-8 28 6 22 0 22 20 0 14-18 14H58q-18 0-18-8z" fill="#FFFCF6"/></g>
+<g class="cloud b"><path d="M40 112q0-16 18-16 6-12 22-8 12-6 22 4 16 0 16 14 0 10-14 10H54q-14 0-14-4z" fill="#FFFCF6"/></g>
+<!-- 龜山島 -->
+<path d="M430 196q10-52 70-60 40-4 68 22 22 18 40 38z" fill="#B9DAA5"/>
+<path d="M470 150q14-10 30-8M520 140q16 0 28 10" fill="none" stroke-width="2"/>
+<!-- sea -->
+<rect x="0" y="196" width="800" height="144" fill="#A8D3E6"/>
+<path d="M0 196H800" fill="none"/>
+<g class="wave1" fill="none"><path d="M-20 226q20-14 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0"/></g>
+<!-- whale -->
+<g class="whale">
+<path d="M520 246q0-46 52-46 40 0 62 30 6-24 26-30-4 22 4 36-18 6-26 24-8 16-40 16h-64q-14 0-14-30z" fill="#3B5F8A"/>
+<path d="M530 238q40 6 90 0" fill="none" stroke="#FFFCF6" stroke-width="2"/>
+<circle cx="560" cy="226" r="4" fill="#FFFCF6" stroke="none"/>
+<path d="M626 228q10-20 28-30-2 14 4 28" fill="#3B5F8A"/>
+</g>
+<g class="spout"><path d="M560 200q-14-30 0-46 14 16 0 46zM566 198q16-26 30-24-4 16-30 24z" fill="#FFFCF6" stroke-width="2.5"/></g>
+<!-- boat -->
+<g class="boat">
+<path d="M250 262h90l-14 28h-62z" fill="#F2A497"/>
+<path d="M278 262v-26h38v26z" fill="#FFFCF6"/>
+<rect x="286" y="244" width="8" height="8" fill="#F6D27A" stroke-width="2"/><rect x="300" y="244" width="8" height="8" fill="#F6D27A" stroke-width="2"/>
+<path d="M296 236v-18l16 7z" fill="#F6D27A" stroke-width="2.5"/>
+</g>
+<g class="wave2" fill="none"><path d="M-20 300q20-14 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0"/></g>
+<!-- shore & road -->
+<path d="M0 196q80-30 150-10t130 10v14H0z" fill="#B9DAA5"/>
+<path d="M0 214H300" fill="none"/>
+<rect x="-4" y="204" width="808" height="20" fill="#F6D27A"/>
+<path d="M0 214H800" fill="none" stroke-dasharray="16 12" stroke-width="2.5"/>
+<g class="bus">
+<g transform="translate(0 150)">
+<rect x="0" y="0" width="120" height="48" rx="14" fill="#F2A497"/>
+<rect x="10" y="9" width="24" height="17" rx="5" fill="#FFFCF6" stroke-width="2.5"/>
+<rect x="40" y="9" width="24" height="17" rx="5" fill="#FFFCF6" stroke-width="2.5"/>
+<rect x="70" y="9" width="24" height="17" rx="5" fill="#FFFCF6" stroke-width="2.5"/>
+<rect x="100" y="9" width="14" height="30" rx="5" fill="#F6D27A" stroke-width="2.5"/>
+<path d="M0 32H120" fill="none" stroke-width="2.5"/>
+<text x="18" y="46" font-size="11" fill="#3E3A39" stroke="none" font-family="Huninn,sans-serif">1877</text>
+<circle cx="28" cy="50" r="10" fill="#FFFCF6"/><circle cx="92" cy="50" r="10" fill="#FFFCF6"/>
+<circle cx="28" cy="50" r="3" fill="#3E3A39"/><circle cx="92" cy="50" r="3" fill="#3E3A39"/>
+</g></g>
+</svg>
+</div>
+
+<div class="search"><input id="q" type="search" placeholder="搜尋行程、交通、補助、小記…" aria-label="搜尋"></div>
+<nav aria-label="快速跳轉">
+<a href="#plan">行程</a><a href="#bus">交通</a><a href="#stay">住宿</a><a href="#money">補助</a><a href="#prep">準備</a><a href="#notes">小記</a>
+</nav>
+<p id="empty" class="note" style="text-align:center" hidden>找不到相符的內容，換個關鍵字試試。</p>
+
+<section id="plan">
+<h2><i style="background:#F2A497"></i>行程表</h2>
+
+<div class="day">
+<h3 style="background:#F2A497">第一天　10/31（六）</h3>
+<ul class="tl box c1">
+<li><span class="t"><b>12:00</b><br>–12:15</span><div><h4>烏石漁港集合</h4><p>宜蘭縣頭城鎮烏石漁港（頭城區漁會辦公大樓）9 號櫃台</p></div></li>
+<li><span class="t"><b>12:30</b><br>–15:30</span><div><h4>賞鯨＋繞島行程體驗</h4><p>體驗時間約 2～3 小時</p></div></li>
+<li><span class="t"><b>15:30</b><br>–15:40</span><div><h4>集合出發至 OA HOTEL</h4><p>集合地點在烏石漁港 9 號櫃台，步行約 5 分鐘</p></div></li>
+<li><span class="t"><b>15:40</b><br>–15:50</span><div><h4>Check in 領房卡</h4><p>第一梯：找家防組兒督導<br>第二梯：找同心園小侯督導</p></div></li>
+<li><span class="t"><b>15:50</b><br>–17:25</span><div><h4>自由活動</h4><p>館內設施：海景風呂、B1 O Bay PLAY 愛玩不完、各層樓交誼廳；也可以到外澳沙灘玩水、喝咖啡、逛蘭陽博物館</p>
+<span class="tag">外澳沙灘 步行約 15 分</span><span class="tag">蘭陽博物館 步行約 15 分</span><span class="tag">海景風呂 16:00–23:00</span><span class="tag">B1 09:00–22:00</span><span class="tag">交誼廳 24 小時</span></div></li>
+<li><span class="t"><b>17:20</b><br>–17:30</span><div><h4>大廳集合，出發至幸福 36 號海鮮餐廳</h4></div></li>
+<li><span class="t"><b>17:30</b><br>–19:00</span><div><h4>晚餐：幸福 36 號海鮮餐廳</h4><p>頭城鎮烏石港路 36 號，預算每人 400 元</p></div></li>
+<li><span class="t"><b>19:00</b><br>後</span><div><h4>自由活動</h4></div></li>
+</ul>
+</div>
+
+<div class="day">
+<h3 style="background:#A8D3E6">第二天　11/1（日）</h3>
+<ul class="tl box c2">
+<li><span class="t"><b>不限時</b></span><div><h4>早餐：凱渡廣場酒店 Pelago 百匯廚</h4><p>離 OA HOTEL 走路 1 分鐘，自助餐開放 06:30–10:00</p></div></li>
+<li><span class="t"><b>不限時</b></span><div><h4>自由活動</h4></div></li>
+<li><span class="t"><b>10:50</b><br>–11:00</span><div><h4>收拾行李，大廳集合退房</h4></div></li>
+<li><span class="t"><b>11:30</b><br>–13:00</span><div><h4>午餐：OA Pizza</h4><p>OA HOTEL 2 樓，營業時間 11:30 起。執行長招待，每人（含眷屬）預算 400 元</p></div></li>
+<li><span class="t"><b>13:00</b></span><div><h4>原地解散，賦歸</h4></div></li>
+</ul>
+</div>
+</section>
+
+<section id="bus">
+<h2><i style="background:#A8D3E6"></i>怎麼去、怎麼回</h2>
+<div class="box c3">
+<p>搭國光客運 <b>1877B 假日路線</b>，圓山轉運站 ⇄ 烏石港轉運站，車程約 80～90 分鐘（依國道 5 號車況）。</p>
+<div class="grid">
+<div class="mini"><h3>票價（單程）</h3><ul><li>三排座 132 元</li><li>四排座 107 元</li></ul></div>
+<div class="mini"><h3>怎麼上車</h3><ul><li>先到售票亭領<b>號碼牌</b></li><li>等司機現場叫號</li><li>現金購票，或刷悠遊卡、一卡通、TPASS</li><li>不能預先劃位</li></ul></div>
+<div class="mini"><h3>在哪裡上車</h3><ul><li>圓山：2 號出口外的玉門街上，不在捷運站旁</li><li>南港轉運站：西站 4 號月台</li></ul></div>
+</div>
+
+<h3 style="margin-top:18px;font-size:18px">去程　10/31 往烏石港</h3>
+<div class="times"><span>07:10</span><span>07:40</span><span>08:35</span><span>09:35</span><span>10:05</span><span>11:05</span><span>12:05</span><span>13:05</span><span>14:05</span></div>
+<p class="note">12:00 要在烏石漁港集合，圓山發車的 10:05 班次是最晚可以搭的一班（車程約 80–90 分，會在 11:35 前後到）。07:40 與 14:05 為無障礙班次。</p>
+
+<h3 style="margin-top:14px;font-size:18px">回程　11/1 往圓山</h3>
+<div class="times"><span>12:05</span><span>13:05</span><span>14:05</span><span>15:05</span><span>16:05</span><span>17:05</span><span>18:05</span><span>19:05</span><span>20:05</span></div>
+<p class="note">13:00 解散，可以搭 14:05 以後的班次；16:05 為無障礙班次。班次截圖只有部分時段，行前請再查一次。</p>
+
+<div class="warn">終點站在烏石港轉運站，回程也在這裡上車。走到蘭陽博物館約 5 分鐘、烏石港北堤沙灘約 10 分鐘，賞鯨搭船處就在轉運站對面港口。</div>
+<div class="links"><a href="https://www.taiwanbus.tw/eBUSPage/Query/QueryResult.aspx?rno=1877B&amp;lan=C" target="_blank" rel="noopener">1877B 即時查詢</a><a href="https://ianchen.life/wushi-harbor-yilan/" target="_blank" rel="noopener">烏石港交通攻略</a></div>
+</div>
+</section>
+
+<section id="stay">
+<h2><i style="background:#B9DAA5"></i>住宿：OA HOTEL</h2>
+<div class="box c3">
+<p>烏石港 OA HOTEL，兩人一間，房號與同房名單請看住宿名單。凱渡廣場酒店就在隔壁，早餐在那邊吃。</p>
+<div class="grid">
+<div class="mini"><h3>領房卡</h3><p>10/31 15:40–15:50 在飯店大廳，依梯次找對應督導。</p></div>
+<div class="mini"><h3>退房</h3><p>11/1 10:50–11:00 大廳集合退房。</p></div>
+</div>
+<div class="links"><a href="https://docs.google.com/spreadsheets/d/1UHJJeZsD4bR520RXl_ZNzZ-0oBXu3nbA/edit?usp=drive_link&amp;ouid=113177067195745810894&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">住宿＋賞鯨名單</a><a href="https://www.oahotels.com.tw/room/" target="_blank" rel="noopener">房型介紹</a></div>
+</div>
+</section>
+
+<section id="money">
+<h2><i style="background:#F6D27A"></i>補助費用說明</h2>
+<div class="box c4">
+<p>以下為員工每人的補助金額：</p>
+<table>
+<tr><td>2 日保險　<small>福委處理</small></td><td>69 元</td></tr>
+<tr><td>住宿　<small>福委處理</small></td><td>2,031 元</td></tr>
+<tr><td>賞鯨＋繞島行程　<small>福委處理</small></td><td>1,000 元</td></tr>
+<tr><td>晚餐：海鮮餐廳　<small>福委處理</small></td><td>400 元</td></tr>
+<tr><td>交通補助　<small>需自行報銷</small></td><td>500 元</td></tr>
+<tr class="sum"><td>合計</td><td>4,000 元</td></tr>
+</table>
+<div class="mini" style="margin-top:6px">
+<h3>交通補助怎麼報</h3>
+<ul>
+<li>憑車票、計程車收據（需符合基金會規定）或油單請款，油單要打統編 76904597</li>
+<li>單據不足 500 元，就實報實銷</li>
+<li>單據日期：第一梯 10/28～11/2，第二梯 10/29～11/3，超出日期不受理</li>
+<li>憑證最晚 <b>11/6</b> 前繳回給雅婷</li>
+</ul>
+</div>
+<p class="note">以上項目若不參加，不會補助其他費用。</p>
+</div>
+</section>
+
+<section id="prep">
+<h2><i style="background:#B9DAA5"></i>行前準備清單</h2>
+<div class="box c3">
+<p id="prog" class="note" style="margin:0 0 6px"></p>
+<ul id="ck" class="ck"></ul>
+<div class="row"><input id="ci" type="text" placeholder="想到什麼就加一項" aria-label="新增清單項目"><button class="btn" id="cadd" type="button">加入</button></div>
+<div class="links"><button class="btn s" id="creset" type="button">全部取消勾選</button></div>
+</div>
+</section>
+
+<section id="notes">
+<h2><i style="background:#F2A497"></i>我的旅行小記</h2>
+<div class="box c1">
+<textarea id="ni" rows="3" placeholder="看到什麼、吃了什麼、想記得的事…" aria-label="旅行小記"></textarea>
+<div class="row"><button class="btn" id="nadd" type="button">記下來</button></div>
+<ul id="nt" class="nt"></ul>
+<p class="note">小記和清單只存在這台裝置的這個瀏覽器，換手機或清除瀏覽資料就會消失。</p>
+</div>
+</section>
+
+<div class="links" style="justify-content:center"><a href="https://app.notion.com/p/115-3a7b7779d03880babeb7c4ac2a4dd1e4" target="_blank" rel="noopener" style="background:#F6D27A">原始 Notion 筆記</a></div>
+<footer>一起平安出門，開心回家 🐋</footer>
+</main>
+<script>
+(function(){
+var DEF=['悠遊卡或一卡通（搭 1877 可刷卡）','記下上車點：圓山在 2 號出口外玉門街，南港在西站 4 號月台','身分證件','泳衣、毛巾（海景風呂、外澳沙灘）','防曬、帽子、薄外套（海上風大）','暈船藥（需要的人）','換洗衣物、盥洗用品','手機充電器、行動電源','收好交通單據（11/6 前繳回，油單打統編 76904597）','選好要搭的 1877 班次（去程 10:05 以前）'];
+function load(k,d){try{var v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}}
+function save(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+var q=document.getElementById('q'),empty=document.getElementById('empty');
+var SEL='.tl li,.mini,tr,.warn,.ck li,.nt li';
+function run(){
+var s=q.value.trim().toLowerCase(),any=false;
+var els=[].slice.call(document.querySelectorAll(SEL));
+els.forEach(function(e){e.hidden=!!s&&e.textContent.toLowerCase().indexOf(s)<0});
+document.querySelectorAll('main section').forEach(function(sec){
+var h=!!s&&sec.querySelector('h2').textContent.toLowerCase().indexOf(s)>-1;
+if(h){sec.querySelectorAll(SEL).forEach(function(e){e.hidden=false})}
+var vis=[].some.call(sec.querySelectorAll(SEL),function(e){return !e.hidden});
+var show=!s||vis||h;sec.hidden=!show;if(show)any=true;
+});
+document.querySelectorAll('.day').forEach(function(d){d.hidden=!!s&&!d.querySelector('li:not([hidden])')});
+empty.hidden=any||!s;
+}
+q.addEventListener('input',run);
+/* checklist */
+var ul=document.getElementById('ck'),prog=document.getElementById('prog'),ci=document.getElementById('ci');
+var st=load('wk-ck',{done:{},custom:[]});
+function upd(){prog.textContent='已完成 '+ul.querySelectorAll('input:checked').length+' / '+ul.children.length}
+function ckRender(){
+ul.innerHTML='';
+var all=DEF.map(function(t,i){return {id:'d'+i,t:t}}).concat(st.custom.map(function(c){return {id:c.id,t:c.t,c:1}}));
+all.forEach(function(it){
+var li=document.createElement('li'),lb=document.createElement('label'),cb=document.createElement('input'),sp=document.createElement('span');
+cb.type='checkbox';cb.checked=!!st.done[it.id];
+cb.addEventListener('change',function(){st.done[it.id]=cb.checked;save('wk-ck',st);upd()});
+sp.textContent=it.t;lb.appendChild(cb);lb.appendChild(sp);li.appendChild(lb);
+if(it.c){var x=document.createElement('button');x.type='button';x.className='x';x.textContent='✕';x.setAttribute('aria-label','刪除這一項');
+x.addEventListener('click',function(){st.custom=st.custom.filter(function(c){return c.id!==it.id});delete st.done[it.id];save('wk-ck',st);ckRender()});li.appendChild(x)}
+ul.appendChild(li);
+});
+upd();run();
+}
+function addC(){var t=ci.value.trim();if(!t)return;st.custom.push({id:'c'+Date.now(),t:t});save('wk-ck',st);ci.value='';ckRender()}
+document.getElementById('cadd').addEventListener('click',addC);
+ci.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();addC()}});
+document.getElementById('creset').addEventListener('click',function(){st.done={};save('wk-ck',st);ckRender()});
+/* notes */
+var nl=document.getElementById('nt'),ni=document.getElementById('ni');
+var notes=load('wk-notes',[]);
+function nRender(){
+nl.innerHTML='';
+notes.forEach(function(n,i){
+var li=document.createElement('li'),x=document.createElement('button'),tm=document.createElement('time'),p=document.createElement('p');
+x.type='button';x.className='x';x.textContent='刪除';x.setAttribute('aria-label','刪除這則小記');
+x.addEventListener('click',function(){notes.splice(i,1);save('wk-notes',notes);nRender()});
+tm.textContent=n.at;p.textContent=n.t;
+li.appendChild(x);li.appendChild(tm);li.appendChild(p);nl.appendChild(li);
+});
+run();
+}
+function addN(){var t=ni.value.trim();if(!t)return;
+var at=new Date().toLocaleString('zh-TW',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false});
+notes.unshift({t:t,at:at});save('wk-notes',notes);ni.value='';nRender()}
+document.getElementById('nadd').addEventListener('click',addN);
+ni.addEventListener('keydown',function(e){if(e.key==='Enter'&&(e.ctrlKey||e.metaKey)){e.preventDefault();addN()}});
+ckRender();nRender();
+})();
+</script>
+</body>
+</html>
